@@ -39,9 +39,11 @@ NeurosurgicalPlanning was independently developed by Dimitrios Giakoumettis on h
 
 ## Installation
 
-Until the extension is accepted into the 3D Slicer Extensions Index, installation is intended for development and testing from the source repository.
+The source of the validated **v0.6.84** module is available under [`SurgicalPlanning/`](SurgicalPlanning/).
 
-Formal Extensions Manager installation instructions will be added after index integration.
+For development and testing, clone or download this repository and add the local `SurgicalPlanning` directory to 3D Slicer's **Edit → Application Settings → Modules → Additional module paths**, then restart Slicer. An Extensions Manager installation will only become available after successful build, review, and acceptance into the official 3D Slicer Extensions Index.
+
+**Release status:** The repository contains the validated source and initial CMake packaging, but clean-install packaging and automated build checks are still pending. No official GitHub Release or Zenodo DOI has been published yet.
 
 ## Clinical and research use
 
