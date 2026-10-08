@@ -33,6 +33,10 @@ Department of Neurosurgery, “Saint Savvas” Oncological Hospital, Athens, Gre
 
 Module author metadata: **Dimitrios Giakoumettis, MD, PhD**
 
+### Independent development and institutional affiliation
+
+NeurosurgicalPlanning was independently developed by Dimitrios Giakoumettis on his own initiative and personal time, without an institutional assignment, funding, or development involvement from “Saint Savvas” Oncological Hospital. The hospital affiliation above identifies the author's professional appointment only and does not imply institutional authorship, ownership, sponsorship, endorsement, or clinical approval of the software.
+
 ## Installation
 
 Until the extension is accepted into the 3D Slicer Extensions Index, installation is intended for development and testing from the source repository.
