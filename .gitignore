@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Slicer and build outputs
+build/
+Build/
+CMakeFiles/
+CMakeCache.txt
+*.s4ext
+*.mrb
+*.mrml
+*.nrrd
+*.nii
+*.nii.gz
+*.dcm
+*.stl
+*.vtk
+*.vtp
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary artifacts
+*.log
+*.tmp
+*.bak
