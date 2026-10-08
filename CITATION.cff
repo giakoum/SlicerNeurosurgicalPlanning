@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use NeurosurgicalPlanning in research, please cite this software."
+title: "NeurosurgicalPlanning"
+type: software
+authors:
+  - family-names: Giakoumettis
+    given-names: Dimitrios
+    affiliation: 'Department of Neurosurgery, "Saint Savvas" Oncological Hospital, Athens, Greece'
+repository-code: "https://github.com/giakoum/SlicerNeurosurgicalPlanning"
+license: Apache-2.0
+version: 0.6.84
