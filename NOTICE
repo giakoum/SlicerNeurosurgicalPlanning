@@ -1,0 +1,15 @@
+NeurosurgicalPlanning
+Copyright 2026 Dimitrios Giakoumettis
+
+This software is independently developed by Dimitrios Giakoumettis.
+The author's institutional affiliation is provided for identification only and does
+not imply institutional ownership, sponsorship, endorsement, or clinical approval.
+
+This extension is built for 3D Slicer and relies on software components and optional
+extensions maintained by their respective authors. Those components are not included
+in this source distribution. Their own licenses and attribution requirements apply.
+
+The module retains an acknowledgement originating from the 3D Slicer scripted-module
+template, naming Jean-Christophe Fillion-Robin, Kitware Inc., Andras Lasso,
+PerkLab, Steve Pieper, and Isomics Inc. This acknowledgement does not imply that
+they authored NeurosurgicalPlanning.
