@@ -75,6 +75,12 @@ This software is provided as a planning and research tool. It does not replace c
 
 Licensed under the **Apache License 2.0**. See [LICENSE](LICENSE).
 
+The author reports **no known patents** related to this extension.
+
+## Publication
+
+No peer-reviewed publication specifically describing NeurosurgicalPlanning is available at the time of this initial public release. A software citation is provided in [CITATION.cff](CITATION.cff).
+
 ## Versioning
 
 The validated public baseline begins at **v0.6.84**. Future public releases will be tagged in this repository.
