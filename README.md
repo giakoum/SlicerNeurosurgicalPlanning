@@ -1,5 +1,9 @@
 # NeurosurgicalPlanning
 
+![NeurosurgicalPlanning branded illustration: stylized brain, ventricular system, and highlighted lesion](Documentation/Images/NeurosurgicalPlanning_Banner_Final.png)
+
+*Conceptual artwork for the extension identity; not an anatomical reference or a screenshot of software-generated patient results.*
+
 **NeurosurgicalPlanning** is a 3D Slicer extension for multimodal preoperative neurosurgical planning.  
 The extension currently contains the internal Slicer module **SurgicalPlanning**.
 
@@ -42,7 +46,7 @@ The internal module name is intentionally retained for compatibility with the va
 
 *Final 3D Model workflow in 3D Slicer, with per-structure visibility and opacity controls. The displayed example does not include arterial reconstruction.*
 
-The extension icon, build verification, and remaining submission work are tracked in the [submission checklist](docs/EXTENSION_SUBMISSION.md).
+The [extension icon](Documentation/Images/NeurosurgicalPlanning_Icon_Final.png) is provided separately from these real Slicer workflow screenshots. Build verification and the remaining submission work are tracked in the [submission checklist](docs/EXTENSION_SUBMISSION.md).
 
 ## Author
 
