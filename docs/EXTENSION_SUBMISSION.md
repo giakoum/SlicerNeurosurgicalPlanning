@@ -14,6 +14,7 @@ Current source baseline: **v0.6.84** (module source and UI unchanged).
 - Raw 3D screenshot URL configured in `EXTENSION_SCREENSHOTURLS`
 - Final extension icon and branded banner uploaded, README banner embedded, and `EXTENSION_ICONURL` configured
 - Draft Extensions Index JSON: [NeurosurgicalPlanning.json](ExtensionsIndex/NeurosurgicalPlanning.json)
+- Official draft submission: [Slicer/ExtensionsIndex PR #2413](https://github.com/Slicer/ExtensionsIndex/pull/2413) (targets the Slicer Preview `main` branch)
 
 ## Still required before submitting the Extensions Index PR
 
@@ -23,7 +24,7 @@ Current source baseline: **v0.6.84** (module source and UI unchanged).
 4. Add GitHub repository topic **`3d-slicer-extension`** via repository About settings.
 5. Review the README's module description and illustrative screenshots for accuracy and clarity.
 6. Verify extension behavior in a **clean** Slicer 5.12 installation, particularly optional dependencies. `EXTENSION_DEPENDS` stays `NA` while integrations are optional and guarded at runtime.
-7. Submit a pull request to `Slicer/ExtensionsIndex` placing the JSON entry at the **root** of the ExtensionsIndex repository as `NeurosurgicalPlanning.json`, not under `docs/`.
+7. **Submitted as Draft PR #2413.** Await maintainer authorization of extension validation, package and lint workflows; review resulting CI findings and maintainer comments before marking the PR ready for review. Stable 5.12 inclusion is a separate follow-up after Preview review.
 
 ## Notes
 
