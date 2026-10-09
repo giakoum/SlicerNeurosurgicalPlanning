@@ -26,6 +26,12 @@ The public repository is being prepared for submission to the 3D Slicer Extensio
 
 The internal module name is intentionally retained for compatibility with the validated codebase.
 
+## Included module
+
+**SurgicalPlanning** provides an integrated 3D Slicer workspace for MRI/CT registration, cranial and intracranial surface preparation, tumor and edema segmentation, arterial visualization, cortical and atlas-based planning, and interactive 3D review. Specific advanced workflows require optional extensions; see [DEPENDENCIES.md](DEPENDENCIES.md).
+
+A representative, anonymized screenshot and module icon will be added before submitting the extension to the Extensions Index. See the [submission checklist](docs/EXTENSION_SUBMISSION.md).
+
 ## Author
 
 **Dimitrios Giakoumettis, MD, MSc, PhD, FEBNS**  
