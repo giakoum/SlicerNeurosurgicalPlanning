@@ -7,7 +7,7 @@ set(EXTENSION_CATEGORY "Planning")
 set(EXTENSION_CONTRIBUTORS "Dimitrios Giakoumettis (Saint Savvas Oncological Hospital)")
 set(EXTENSION_DESCRIPTION "MRI/CT registration, segmentation, vascular reconstruction, and interactive 3D neurosurgical planning.")
 set(EXTENSION_ICONURL "")
-set(EXTENSION_SCREENSHOTURLS "")
+set(EXTENSION_SCREENSHOTURLS "https://raw.githubusercontent.com/giakoum/SlicerNeurosurgicalPlanning/main/Documentation/Images/NeurosurgicalPlanning_3D.png")
 set(EXTENSION_DEPENDS "NA")
 
 find_package(Slicer REQUIRED)
