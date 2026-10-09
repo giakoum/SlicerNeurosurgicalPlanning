@@ -12,13 +12,14 @@ Current source baseline: **v0.6.84** (module source and UI unchanged).
 - Mock CMake configuration (without Slicer SDK) passed
 - Two de-identified illustration screenshots committed to `Documentation/Images/` and embedded in the README
 - Raw 3D screenshot URL configured in `EXTENSION_SCREENSHOTURLS`
+- Final extension icon and branded banner uploaded, README banner embedded, and `EXTENSION_ICONURL` configured
 - Draft Extensions Index JSON: [NeurosurgicalPlanning.json](ExtensionsIndex/NeurosurgicalPlanning.json)
 
 ## Still required before submitting the Extensions Index PR
 
 1. Perform a **real** CMake extension configuration, build and CPack packaging using an installed matching Slicer SDK/build tree or the Slicer extension build infrastructure. The mock configuration does **not** prove that Slicer can build and package this extension.
 2. Verify that the committed screenshots render correctly on GitHub and that public-use permissions are documented as appropriate.
-3. Add an extension **icon** (PNG), host it in the repository, and set its raw GitHub URL in `EXTENSION_ICONURL`.
+3. Verify the extension icon URL and rendering in the actual Slicer Extensions Manager.
 4. Add GitHub repository topic **`3d-slicer-extension`** via repository About settings.
 5. Review the README's module description and illustrative screenshots for accuracy and clarity.
 6. Verify extension behavior in a **clean** Slicer 5.12 installation, particularly optional dependencies. `EXTENSION_DEPENDS` stays `NA` while integrations are optional and guarded at runtime.
