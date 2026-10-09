@@ -5,6 +5,12 @@ The extension currently contains the internal Slicer module **SurgicalPlanning**
 
 The project is designed to support integrated review and reconstruction of multimodal neuroimaging for surgical planning workflows, including registration, cranial and brain surface preparation, tumor and edema segmentation workflows, vascular reconstruction, cortical/parcellation workflows, and final 3D planning views.
 
+## 3D planning example
+
+![NeurosurgicalPlanning 3D reconstruction showing cortical surface, ventricles, tumor segmentation, and transparent cranial anatomy](Documentation/Images/NeurosurgicalPlanning_3D.png)
+
+*Illustrative, de-identified 3D reconstruction showing a cortical surface, ventricles, tumor segmentation, and transparent cranial anatomy. This screenshot demonstrates visualization functionality; it is not evidence of segmentation accuracy or clinical validation.*
+
 ## Current validated baseline
 
 The current validated baseline is **v0.6.84**.
@@ -30,7 +36,13 @@ The internal module name is intentionally retained for compatibility with the va
 
 **SurgicalPlanning** provides an integrated 3D Slicer workspace for MRI/CT registration, cranial and intracranial surface preparation, tumor and edema segmentation, arterial visualization, cortical and atlas-based planning, and interactive 3D review. Specific advanced workflows require optional extensions; see [DEPENDENCIES.md](DEPENDENCIES.md).
 
-A representative, anonymized screenshot and module icon will be added before submitting the extension to the Extensions Index. See the [submission checklist](docs/EXTENSION_SUBMISSION.md).
+### SurgicalPlanning interface
+
+![SurgicalPlanning Final 3D Model interface with opacity and visibility controls alongside the reconstructed 3D model](Documentation/Images/NeurosurgicalPlanning_Workflow.png)
+
+*Final 3D Model workflow in 3D Slicer, with per-structure visibility and opacity controls. The displayed example does not include arterial reconstruction.*
+
+The extension icon, build verification, and remaining submission work are tracked in the [submission checklist](docs/EXTENSION_SUBMISSION.md).
 
 ## Author
 
